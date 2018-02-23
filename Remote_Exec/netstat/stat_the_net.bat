@@ -1,0 +1,1 @@
+psexec -i -s \\10.10.10.1 "netstat -ano > %temp%"

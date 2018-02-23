@@ -1,0 +1,2 @@
+reg add "HKEY_CLASSES_ROOT\Directory\Background\shell\IDLE" /v "&IDLE"
+reg add "HKEY_CLASSES_ROOT\Directory\Background\shell\IDLE\command" /ve /d "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 2.7"
