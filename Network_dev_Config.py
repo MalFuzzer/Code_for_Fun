@@ -1,4 +1,4 @@
-# Creators: Uriel Kosayev & Uriel Yochpaz
+# Creator: Uriel Kosayev
 
 import re
 import time
