@@ -13,7 +13,7 @@ CODESEG
 encrypt:
 		
 		xor dl, key ; xor 110B with the value that stored in the bl register
-		add dl, inc_value ; add value so it will print an ASCII value and not somthing weirdo
+		add dl, inc_value ; add value so it will print an ASCII value and not something weirdo
 		mov bl, dl ; assign the xored value in another register so it can be printed
 		mov ah, 2 ; stdout instruction
 		int 21h ; call the interrupt stack
