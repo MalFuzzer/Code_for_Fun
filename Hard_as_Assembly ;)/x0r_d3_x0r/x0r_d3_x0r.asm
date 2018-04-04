@@ -38,7 +38,7 @@ start:
 		call exit ; calls the exit function
 		
 x0r_th3_x0r:
-	xor ax, 14
+	xor ax, 14 ; xor the current value in the ax register with the value key 14 (the encryption key)
 	ret
 		
 exit:
