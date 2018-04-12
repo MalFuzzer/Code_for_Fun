@@ -1,2 +1,2 @@
-# Fun_n_Stuff
+# Uriel Kosayev
 Some interesting scripts ;)
