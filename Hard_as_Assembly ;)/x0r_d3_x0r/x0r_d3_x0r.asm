@@ -3,6 +3,7 @@ MODEL small
 STACK 100h
 DATASEG
 
+; written by: Uriel Kosayev
 ; view the output in the TD debugger - Seek for the values that defined in the "list" variable (eg. ASCii values: W V U T S) in the memory (eg. CPU window under the "view" tab)
 ; the goal is to xor the above value (W V U T S) and unxor it back
 
