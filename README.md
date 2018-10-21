@@ -1,2 +1,1 @@
-# Uriel Kosayev
-Some interesting scripts ;)
+# Code for fun
