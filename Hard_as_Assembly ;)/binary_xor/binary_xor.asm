@@ -32,8 +32,8 @@ start:
 		mov ax, @data
 		mov ds, ax
 		mov bl, data ; assign 101B to bl, B indicated that the value is passed in binary
-		; prints the value before the xor operation
 		mov dl, bl
+		; prints the value before the xor operation
 		mov ah, 2
 		int 21h
 		
