@@ -82,7 +82,7 @@ int main()
         char* ret = GetAddressOfData(pids[i], someData, sizeof(someData));
         if(ret)
         {
-            std::cout << "Malware Alert!!! at: " << (void*)ret << "\n";
+            std::cout << "Malicious pattern found at: " << (void*)ret << "\n";
             TerminateProcessEx(pids[i], 0);
             continue;
         } 
