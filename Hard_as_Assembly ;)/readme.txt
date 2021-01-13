@@ -1,1 +1,1 @@
-Run me with old dude -> !!!DOSbox!!! ;)
+Run with TASM (Turbo Assembler) :)
