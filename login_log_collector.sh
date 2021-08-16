@@ -2,6 +2,7 @@
 
 log_file="out.log"
 
+
 echo "Last loggedin users:" > $log_file
 last | head -n 2 >> $log_file
 echo "Cross-reference data:" >> $log_file
